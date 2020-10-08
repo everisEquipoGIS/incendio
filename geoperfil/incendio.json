@@ -336,7 +336,7 @@
   ],
   "scripts": {
     "inicio": {
-      "css": ["https://cdn.jsdelivr.net/gh/everisEquipoGIS/pruebas@9f59f19/estiloGeoperfil.css"]
+      "css": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/estiloGeoperfil.css"]
     },
     "final": {
       "js": [
@@ -344,7 +344,7 @@
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.ol.min.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/plugins.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/plugins.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/capas.js"
       ],
       "css": [
