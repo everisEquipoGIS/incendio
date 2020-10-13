@@ -100,205 +100,205 @@
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Usos simples",
+        "name": "Usos Simples",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/USO_SIMPLES.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1400
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con pendientes del 0-5%",
+        "name": "Hectáreas con Pendientes del 0-5%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD0_5.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1955
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con pendientes del 5-14%",
+        "name": "Hectáreas con Pendientes del 5-14%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD5_14.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1954
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con pendientes del 15-25%",
+        "name": "Hectáreas con Pendientes del 15-25%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD15_25.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1953
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con pendientes del 26-50%",
+        "name": "Hectáreas con Pendientes del 26-50%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD26_50.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1952
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con pendiente de 51-100%",
+        "name": "Hectáreas con Pendientes del 51-100%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD51_100.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1951
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con FCC arbustiva < 50%",
+        "name": "Hectáreas con FCC Arbustiva de 0-50%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_MATO_1_50.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1941
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con FCC arbustiva mayor o igual al 50%",
+        "name": "Hectáreas con FCC Arbustiva de 51-100%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_MATO_51_100.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1940
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas de eucaliptar cobertura < 50%",
+        "name": "Hectáreas con FCC de Eucaliptar de 0-50%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_EUCALIPTUS_0_50.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1931
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas de eucaliptar cobertura > 50%",
+        "name": "Hectáreas con FCC de Eucaliptar de 51-100%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_EUCALIPTUS_51_100.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1930
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas de pinar cobertura < 50%",
+        "name": "Hectáreas con FCC de Pinar de 0-50%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PINUS_0_50.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1921
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas de pinar cobertura > 50%",
+        "name": "Hectáreas con FCC de Pinar de 51-100%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PINUS_51_100.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1920
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas de encinar cobertura < 50%",
+        "name": "Hectáreas con FCC de Quercus de 0-50%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_QUERCUS_0_50_.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1911
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas de encinar cobertura > 50%",
+        "name": "Hectáreas con FCC de Quercus de 51-100%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_QUERCUS_51_100.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1910
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas donde la FCC arbórea se encuentra entre el 1-25%",
+        "name": "Hectáreas con FCC Arbórea de 0-25%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_1_25.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1904
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas donde la FCC arbórea se encuentra entre el 26-50%",
+        "name": "Hectáreas con FCC Arbórea de 26-50%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_26_50.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1903
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas donde la FCC arbórea se encuentra entre el 51-75%",
+        "name": "Hectáreas con FCC Arbórea de 51-75%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_51_75.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1902
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas donde la FCC arbórea se encuentra entre el 76-100%",
+        "name": "Hectáreas con FCC Arbórea de 76-100%",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_76_100.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1901
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con presencia del HIC de Encinar",
+        "name": "Hectáreas con Presencia del HIC de Encinar",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_HIC_ENCINAR.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1901
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con presencia del HIC de brezal",
+        "name": "Hectáreas con Presencia del HIC de Brezal",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_HIC_JARAL_BREZAL.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1901
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Hectáreas con presencia del HIC de formaciones adehesadas",
+        "name": "Hectáreas con Presencia del HIC de Formaciones Adehesadas",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_HIC_FORMACION_ADEHESADA.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1901
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Indica si es probable que aparezca alguna especie incluida en el catálogo de especies amenazadas",
+        "name": "Probabilidad Aparición Especies del Catálogo de Especies Amenazadas",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/SP_AMENAZ.geojson",
-        "extract": true
+        "extract": false
       },
       "visibility": false,
       "zindex": 1400
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Caminos ámbito Almonaster",
+        "name": "Caminos Ámbito Almonaster",
         "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/caminos.geojson",
         "extract": false
       },
@@ -318,23 +318,21 @@
   "scripts": {
     "inicio": {
       "js": [
-        "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.ol.min.js"
       ],
       "css": [
-        "https://cdn.statically.io/gh/everisEquipoGIS/PLG_Hor_Navigation/master/1.0.0/plg_hor_navigation.ol.min.css",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
         "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.css",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.min.css",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/fee0131/geoperfil/estiloGeoperfil.css"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/ea11332/geoperfil/estiloGeoperfil.css"
       ]
     },
     "final": {
       "js": [
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/capas.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/c64f187/geoperfil/plugins.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/958f6ef/geoperfil/capas.js",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/bbe5955/geoperfil/plugins.js"
       ],
       "css": []
     }
