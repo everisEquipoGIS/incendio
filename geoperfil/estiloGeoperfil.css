@@ -1,7 +1,7 @@
 
 /* PLG-HOR-NAVIGATION */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     div.m-control.m-navigationzoomhistory-container::after {
         display: none;
     }
