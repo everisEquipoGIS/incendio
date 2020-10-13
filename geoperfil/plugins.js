@@ -4,8 +4,8 @@
  **********************************************************/
 
 const barraNavegacion = new M.plugin.PLG_Hor_Navigation({
-    "measureLength": true,
-    "measureArea": true,
+    "measureLength": false,
+    "measureArea": false,
     "geocalc": false,
     "identify": {
       "all": false
@@ -221,12 +221,58 @@ var configGroups = [];
                 legend: 'REDIAM. WMS Zonas inundables de Andalucía',
                 transparent: true,
                 tiled: false
-            }),new M.layer.WFS({
+            }),
+            new M.layer.WFS({
   							url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_sipna_os_actual",
   							name: "ms:sipna_os",
   							legend: "SIPNA OS ACTUAL. WFS",
   							geometry: 'POLYGON'
-						})
+            }),
+            new M.layer.WMS({
+                url: "http://www.geoportalagriculturaypesca.es/geoide/sigpac/wms?",
+                name: "SIGPAC19_RECINTOS",
+                legend: "Recintos SIGPAC"
+            }),
+            new M.layer.WMS({
+                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_RENPA?",
+                name: "red_natura_2000",
+                legend: "Red Natura"
+            }),
+            new M.layer.WMS({
+                url: "",
+                name: "DERA",
+                legend: "Núcleos de Población"
+            }),
+            new M.layer.WMS({
+                url: "https://www.ideandalucia.es/services/DERA_g9_transport_com/wms?",
+                name: "g09_14_RedCarreteras",
+                legend: "Carreteras"
+            }),
+            new M.layer.WMS({
+                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Inventario_VVPP?sld_body=%3CStyledLayerDescriptor%20version%3D%221.1.0%22%20xsi%3AschemaLocation%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%20http%3A%2F%2Fschemas.opengis.net%2Fsld%2F1.1.0%2FStyledLayerDescriptor.xsd%22%20xmlns%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%22%20xmlns%3Aogc%3D%22http%3A%2F%2Fwww.opengis.net%2Fogc%22%20xmlns%3Ase%3D%22http%3A%2F%2Fwww.opengis.net%2Fse%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%3E%3CNamedLayer%3E%3CName%3Elinea_base_deslindada%3C%2FName%3E%3CUserStyle%3E%3CFeatureTypeStyle%3E%3CRule%3E%3CTitle%3EL%C3%ADnea%20Base%20Deslindada%3C%2FTitle%3E%3CLineSymbolizer%3E%3CStroke%3E%3CCssParameter%20name%3D%22stroke%22%3E%23A80724%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22stroke-width%22%3E2%3C%2FCssParameter%3E%3C%2FStroke%3E%3C%2FLineSymbolizer%3E%3C%2FRule%3E%3C%2FFeatureTypeStyle%3E%3C%2FUserStyle%3E%3C%2FNamedLayer%3E%3C%2FStyledLayerDescriptor%3E",
+                name: "linea_base_deslindada",
+                legend: "Vías Pecuarias y Deslindes"
+            }),
+            new M.layer.WMS({
+                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_RENPA?",
+                name: "eennpp",
+                legend: "Area de influencia socioeconómica de los Espacios Naturales Protegidos (RENPA)"
+            }),
+            new M.layer.WMS({
+                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_terrenos_cinegeticos_andalucia?",
+                name: "Terrenos_cinegeticos_2016-17",
+                legend: "Cotos de Caza"
+            }),
+            new M.layer.WMS({
+                url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_seguimiento_anual_erosion_suelo?",
+                name: "perdidas_suelo_2018",
+                legend: "Erosión del suelo"
+            }),
+            new M.layer.WMS({
+                url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_erosion_dehesas?",
+                name: "Erosion_real",
+                legend: "Erosión Dehesas"
+            })
         ]
     });
 
