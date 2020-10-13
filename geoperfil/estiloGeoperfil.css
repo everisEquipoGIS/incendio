@@ -1,13 +1,13 @@
 
 /* PLG-HOR-NAVIGATION */
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 890px) {
     div.m-control.m-navigationzoomhistory-container::after {
         display: none;
     }
 }
 
-div.m-panel.plg-navigation.opened button.m-panel-btn.g-navigationtools-opened {
+div.m-area div.m-panel.plg-navigation.opened button.m-panel-btn.g-navigationtools-opened {
     height: 43px !important;
 }
 
