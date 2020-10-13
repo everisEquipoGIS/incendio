@@ -223,55 +223,88 @@ var configGroups = [];
                 tiled: false
             }),
             new M.layer.WFS({
-  							url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_sipna_os_actual",
-  							name: "ms:sipna_os",
-  							legend: "SIPNA OS ACTUAL. WFS",
-  							geometry: 'POLYGON'
+                url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_sipna_os_actual",
+                name: "ms:sipna_os",
+                legend: "SIPNA OS ACTUAL. WFS",
+                geometry: 'POLYGON'
             }),
             new M.layer.WMS({
                 url: "http://www.geoportalagriculturaypesca.es/geoide/sigpac/wms?",
                 name: "SIGPAC19_RECINTOS",
-                legend: "Recintos SIGPAC"
+                legend: "Recintos SIGPAC",
+                transparent: true,
             }),
             new M.layer.WMS({
                 url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_RENPA?",
                 name: "red_natura_2000",
-                legend: "Red Natura"
+                legend: "Red Natura",
+                transparent: true,
             }),
             new M.layer.WMS({
-                url: "",
-                name: "DERA",
-                legend: "Núcleos de Población"
+                url: "http://www.ideandalucia.es/services/DERA_g13_limites_administrativos/wms?",
+                name: "g13_01_TerminoMunicipal",
+                legend: "Términos Municipales",
+                transparent: true,
+            }),
+            new M.layer.WMS({
+                url: "http://www.juntadeandalucia.es/institutodeestadisticaycartografia/geoserver-ieca/itaca/wms?",
+                name: "contornos_itaca",
+                legend: "Contornos Asentamientos ITACA",
+                transparent: true,
+            }),
+            new M.layer.WMS({
+                url: "http://www.juntadeandalucia.es/institutodeestadisticaycartografia/geoserver-ieca/itaca/wms?",
+                name: "etiquetas_itaca",
+                legend: "Nombres Oficiales ITACA",
+                transparent: true,
             }),
             new M.layer.WMS({
                 url: "https://www.ideandalucia.es/services/DERA_g9_transport_com/wms?",
                 name: "g09_14_RedCarreteras",
-                legend: "Carreteras"
+                legend: "Carreteras",
+                transparent: true,
             }),
             new M.layer.WMS({
-                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Inventario_VVPP?sld_body=%3CStyledLayerDescriptor%20version%3D%221.1.0%22%20xsi%3AschemaLocation%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%20http%3A%2F%2Fschemas.opengis.net%2Fsld%2F1.1.0%2FStyledLayerDescriptor.xsd%22%20xmlns%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%22%20xmlns%3Aogc%3D%22http%3A%2F%2Fwww.opengis.net%2Fogc%22%20xmlns%3Ase%3D%22http%3A%2F%2Fwww.opengis.net%2Fse%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20xmlns%3Axsi%3D%22http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema-instance%22%3E%3CNamedLayer%3E%3CName%3Elinea_base_deslindada%3C%2FName%3E%3CUserStyle%3E%3CFeatureTypeStyle%3E%3CRule%3E%3CTitle%3EL%C3%ADnea%20Base%20Deslindada%3C%2FTitle%3E%3CLineSymbolizer%3E%3CStroke%3E%3CCssParameter%20name%3D%22stroke%22%3E%23A80724%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22stroke-width%22%3E2%3C%2FCssParameter%3E%3C%2FStroke%3E%3C%2FLineSymbolizer%3E%3C%2FRule%3E%3C%2FFeatureTypeStyle%3E%3C%2FUserStyle%3E%3C%2FNamedLayer%3E%3C%2FStyledLayerDescriptor%3E",
+                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Inventario_VVPP?",
                 name: "linea_base_deslindada",
-                legend: "Vías Pecuarias y Deslindes"
+                legend: "Vías Pecuarias deslindadas",
+                transparent: true,
+            }),
+            new M.layer.WMS({
+                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Inventario_VVPP?",
+                name: "Inventario_VVPP",
+                legend: "Inventario de Vías Pecuarias",
+                transparent: true,
+            }),
+            new M.layer.WMS({
+                url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Inventario_VVPP?",
+                name: "Lugares_VVPP",
+                legend: "Lugares Asociados a las VVPP",
+                transparent: true,
             }),
             new M.layer.WMS({
                 url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_RENPA?",
                 name: "eennpp",
-                legend: "Area de influencia socioeconómica de los Espacios Naturales Protegidos (RENPA)"
+                legend: "Area de influencia socioeconómica de los Espacios Naturales Protegidos (RENPA)",
+                transparent: true,
             }),
             new M.layer.WMS({
                 url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_terrenos_cinegeticos_andalucia?",
                 name: "Terrenos_cinegeticos_2016-17",
-                legend: "Cotos de Caza"
+                legend: "Cotos de Caza",
+                transparent: true,
             }),
             new M.layer.WMS({
                 url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_seguimiento_anual_erosion_suelo?",
                 name: "perdidas_suelo_2018",
-                legend: "Erosión del suelo"
+                legend: "Erosión del suelo",
+                transparent: true,
             }),
             new M.layer.WMS({
                 url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_erosion_dehesas?",
                 name: "Erosion_real",
-                legend: "Erosión Dehesas"
+                legend: "Erosión Dehesas",
+                transparent: true,
             })
         ]
     });
