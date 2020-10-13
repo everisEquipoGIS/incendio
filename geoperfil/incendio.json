@@ -1,7 +1,6 @@
 {
   "bbox": [678340.5, 4165623.2, 718172.2, 4187223.7],
   "controls": ["mouse"],
-  "maxExtent": [73733.49801635131, 3928230.3582630055, 649949.4135838121, 4334624.218568861],  
   "projection": "EPSG:25829*m",
   "zoom": 2,
   "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/incendios/server/mapa_base.xml"],
