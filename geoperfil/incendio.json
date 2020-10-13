@@ -314,24 +314,6 @@
       },
       "visibility": false,
       "zindex": 1001
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/",
-        "extract": true
-      },
-      "visibility": false,
-      "zindex": 0
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/",
-        "extract": true
-      },
-      "visibility": false,
-      "zindex": 0
     }
   ],
   "scripts": {
