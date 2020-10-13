@@ -1,7 +1,7 @@
 
 /* PLUGIN ATTRIBUTIONS */
 
-.m-panel.m-attributions {
+.m-panel.m-attributions .m-attributions-container-list #logo>h1>a.logotipo {
     text-decoration: none !important;
   }
   
@@ -32,7 +32,8 @@ width: 80%;
 /* CAPAS CATASTRO */
 
 #toc-activelayers div[id*='layerThatContainSelectedFeatures'].toc-item-layer,
-#toc-activelayers div[id*='layerChangingColorWhenHovering'].toc-item-layer {
+#toc-activelayers div[id*='layerChangingColorWhenHovering'].toc-item-layer,
+#toc-activelayers div[id$='_'].toc-item-layer {
     display: none;
 }
 
