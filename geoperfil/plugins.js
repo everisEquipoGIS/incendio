@@ -120,77 +120,77 @@ var configGroups = [];
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_riesgo_historico_incendio',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Riesgo histórico Incendio. 2016',
+                legend: 'Riesgo Histórico Incendio (2016)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_equipamientos_incendios_2020?',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Equipamientos contra incendios en Andalucía año 2020',
+                legend: 'Equipamientos contra Incendios (2020)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_distrib_formaciones_adehesadas_SIOSEA_2005',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Distribución de las formaciones adehesadas en Andalucía extraídas a partir de la base cartográfica de SIOSE Andalucía',
+                legend: 'Distribución de las Formaciones Adehesadas (SIOSE Andalucía)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_riesgo_meteorologico_incendios',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Riesgo Meteorológico de Incendios. 2016',
+                legend: 'Riesgo Meteorológico de Incendios (2016)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_perimetros_incendios_forestales',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Perímetros de Incendios Forestales en Andalucía. 2008-2019',
+                legend: 'Perímetros de Incendios Forestales (2008-2019)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_zona_peligro_incendios_forestales',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Zonas de Peligro de Incendio en Andalucía',
+                legend: 'Zonas de Peligro de Incendio',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://ovc.catastro.meh.es/cartografia/INSPIRE/spadgcwms.aspx',
                 name: 'CP.CadastralParcel',
-                legend: 'AdministrativeBoundary/AdministrativeUnit/BuildingPart/Building/Address/CadastralZoning/CadastralParcel',
+                legend: 'Parcelas Catastrales',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.ideandalucia.es/wms/mta100v_2005?LAYERS=Nucleos_de_Poblacion',
                 name: 'Mapa Topográfico de Andalucía 1:100000 Vectorial',
-                legend: 'IDEAndalucia MTA100v',
+                legend: 'Topográfico 1:100000',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_indice_vulnerab_incendios_forestales',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Índices de vulnerabilidad frente a incendios forestales en Andalucía: año 2006',
+                legend: 'Índices de Vulnerabilidad frente a Incendios Forestales (2006)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_indice_riesgo_incencio_forestal_2006',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Índices de riesgo por incendio forestal en Andalucía: año 2006',
+                legend: 'Índices de Riesgo por Incendio Forestal (2006)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_mapa_pendientes_incendio_penuelas_2018',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Mapa de Pendientes de 1m, 2018. Incendio de Las Peñuelas, Moguer (Huelva)',
+                legend: 'Mapa de Pendientes de 1m (2018). Incendio de Las Peñuelas, Moguer (Huelva)',
                 transparent: true,
                 tiled: false
             }),
@@ -204,28 +204,28 @@ var configGroups = [];
             new M.layer.WMS({
                 url: 'https://www.ideandalucia.es/wms/sombras_siose?LAYERS=sombras_siose_continuo',
                 name: 'sombras_siose',
-                legend: 'IDEAndalucía Fondo Orográfico SIOSE',
+                legend: 'Fondo Orográfico SIOSE',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.cma.junta-andalucia.es/medioambiente/mapwms/REDIAM_mde_andalucia',
                 name: 'REDIAM. WMS Modelo Digital de Elevaciones (MDE) de Andalucía',
-                legend: 'REDIAM. WMS Modelo Digital de Elevaciones (MDE) de Andalucía',
+                legend: 'Modelo Digital de Elevaciones (MDE)',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_zonas_inundables_Andalucia',
                 name: 'REDIAM',
-                legend: 'REDIAM. WMS Zonas inundables de Andalucía',
+                legend: 'Zonas Inundables',
                 transparent: true,
                 tiled: false
             }),
             new M.layer.WFS({
                 url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_sipna_os_actual",
                 name: "ms:sipna_os",
-                legend: "SIPNA OS ACTUAL. WFS",
+                legend: "SIPNA OS",
                 geometry: 'POLYGON'
             }),
             new M.layer.WMS({
@@ -249,13 +249,13 @@ var configGroups = [];
             new M.layer.WMS({
                 url: "http://www.juntadeandalucia.es/institutodeestadisticaycartografia/geoserver-ieca/itaca/wms?",
                 name: "contornos_itaca",
-                legend: "Contornos Asentamientos ITACA",
+                legend: "Núcleos Urbanos",
                 transparent: true,
             }),
             new M.layer.WMS({
                 url: "http://www.juntadeandalucia.es/institutodeestadisticaycartografia/geoserver-ieca/itaca/wms?",
                 name: "etiquetas_itaca",
-                legend: "Nombres Oficiales ITACA",
+                legend: "Nombres Oficiales Núcleos Urbanos",
                 transparent: true,
             }),
             new M.layer.WMS({
@@ -267,7 +267,7 @@ var configGroups = [];
             new M.layer.WMS({
                 url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Inventario_VVPP?",
                 name: "linea_base_deslindada",
-                legend: "Vías Pecuarias deslindadas",
+                legend: "Vías Pecuarias Deslindadas",
                 transparent: true,
             }),
             new M.layer.WMS({
@@ -285,19 +285,19 @@ var configGroups = [];
             new M.layer.WMS({
                 url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_RENPA?",
                 name: "eennpp",
-                legend: "Area de influencia socioeconómica de los Espacios Naturales Protegidos (RENPA)",
+                legend: "Area de Influencia Socioeconómica de los Espacios Naturales Protegidos (RENPA)",
                 transparent: true,
             }),
             new M.layer.WMS({
                 url: "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_terrenos_cinegeticos_andalucia?",
                 name: "Terrenos_cinegeticos_2016-17",
-                legend: "Cotos de Caza",
+                legend: "Terrenos Cinegéticos",
                 transparent: true,
             }),
             new M.layer.WMS({
                 url: "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_seguimiento_anual_erosion_suelo?",
                 name: "perdidas_suelo_2018",
-                legend: "Erosión del suelo",
+                legend: "Erosión del Suelo",
                 transparent: true,
             }),
             new M.layer.WMS({
@@ -317,7 +317,7 @@ var configGroups = [];
 			 new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_equipamientos_incendios_2020?',
                 name: 'Torres_de_Vigilancia',
-                legend: 'Torres de vigilancia',
+                legend: 'Torres de Vigilancia',
                 version: '1.1.1',
                 transparent: true,
                 tiled: true
@@ -334,7 +334,7 @@ var configGroups = [];
 			 new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_equipamientos_incendios_2020?',
                 name: 'Veh%C3%ADculos_contra_incendios',
-                legend: 'Vehiculos Contra Incendios',
+                legend: 'Vehiculos contra Incendios',
                 version: '1.1.1',
                 transparent: true,
                 tiled: true
@@ -344,7 +344,7 @@ var configGroups = [];
 			new M.layer.WFS({
                 url: 'http://servintegra.cma.junta-andalucia.es/medioambiente/mapwms/REDIAM_wfs_instalaciones?',
                 name: 'ms:equipamientos_incendios',
-                legend: 'Equipamientos contra incendios', 
+                legend: 'Equipamientos contra Incendios', 
 				geometry: 'POINT' 
             }) ,
 			 
@@ -368,7 +368,7 @@ var configGroups = [];
  						new M.layer.WMS({
                 url: 'https://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?',
                 name: 'Catastro',
-                legend: 'Catastro publicada por la dirección general de Catastro',
+                legend: 'Catastro',
                 version: '1.1.1',
                 transparent: true,
                 tiled: true
@@ -384,7 +384,7 @@ var configGroups = [];
             new M.layer.WMS({
                 url: 'https://www.callejerodeandalucia.es/servicios/cdau/wms?',
                 name: 'CDAU_wms',
-                legend: 'Vias y Portales CDAU',
+                legend: 'Vías y Portales CDAU',
                 version: '1.1.1',
                 transparent: true,
                 tiled: true
@@ -413,9 +413,23 @@ var configGroups = [];
                 tiled: true
             }),
             new M.layer.WMS({
+                url: 'https://www.ideandalucia.es/services/mta400v_2016/wms',
+                name: 'mta400v_2016',
+                legend: 'Topográfico 400.000 (vectorial)',
+                transparent: true,
+                tiled: true
+            }),
+            new M.layer.WMS({
+                url: 'https://www.ideandalucia.es/wms/mta100v_2005',
+                name: 'Mapa Topográfico de Andalucía 1:100000 Vectorial',
+                legend: 'Topográfico 100.000 (vectorial)',
+                transparent: true,
+                tiled: true
+            }),
+            new M.layer.WMS({
                 url: 'https://www.ideandalucia.es/wms/mta10r_2001-2013?',
                 name: 'mta10r_2001-2013',
-                legend: 'Topográfico 1:10000 (raster)',
+                legend: 'Topográfico 1:10000 (ráster)',
                 transparent: true,
                 tiled: true
             }),
@@ -435,30 +449,16 @@ var configGroups = [];
         description: "Mapas temáticos de Andalucía",
         overlays: [
             new M.layer.WMS({
-                url: 'https://www.ideandalucia.es/services/mta400v_2016/wms',
-                name: 'mta400v_2016',
-                legend: 'Topográfico 400.000 (vectorial)',
-                transparent: true,
-                tiled: true
-            }),
-            new M.layer.WMS({
-                url: 'https://www.ideandalucia.es/wms/mta100v_2005',
-                name: 'Mapa Topográfico de Andalucía 1:100000 Vectorial',
-                legend: 'Topográfico 100.000 (vectorial)',
-                transparent: true,
-                tiled: true
-            }),
-            new M.layer.WMS({
                 url: 'https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_siose_2013_explot?',
                 name: 'REDIAM',
-                legend: 'Explotación de la información del Proyecto SIOSE-Andalucia 2013',
+                legend: 'Explotación de la Información del Proyecto SIOSE-Andalucia 2013',
                 transparent: true,
                 tiled: true
             }),
             new M.layer.WMS({
                 url: 'https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Biodiversidad_Andalucia?',
                 name: 'REDIAM',
-                legend: 'Mapa de Biodiversidad de Andalucía',
+                legend: 'Mapa de Biodiversidad',
                 transparent: true,
                 tiled: true
             })
@@ -473,7 +473,7 @@ var configGroups = [];
             new M.layer.WMS({
                 url: 'https://www.juntadeandalucia.es/institutodeestadisticaycartografia/geoserver-ieca/gridpob/wms?',
                 name: 'gridpob_250',
-                legend: 'Población en Andalucía',
+                legend: 'Población',
                 transparent: true,
                 tiled: true
             })  
