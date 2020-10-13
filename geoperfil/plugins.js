@@ -4,8 +4,8 @@
  **********************************************************/
 
 const barraNavegacion = new M.plugin.PLG_Hor_Navigation({
-    "measureLength": false,
-    "measureArea": false,
+    "measureLength": true,
+    "measureArea": true,
     "geocalc": false,
     "identify": {
       "all": false
