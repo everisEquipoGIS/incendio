@@ -7,7 +7,6 @@
 		"Plugin de info incendio",
 		"plg_info_incendio"
 );
-map.addPlugin(activateInfoIncendio);
 
 
 /**********************************************************
