@@ -550,3 +550,10 @@ var configGroups = [];
 
 const manageLayers = new M.plugin.ManageLayers(paramsPlugin);
 map.addPlugin(manageLayers);
+
+/**********************************************************
+ * PLUGIN CARGAR CAPAS WMS
+ **********************************************************/
+ 
+ var cargaWms = new M.plugin.AddServices();
+ map.addPlugin(cargaWms);
