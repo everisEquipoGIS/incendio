@@ -558,13 +558,7 @@ map.addPlugin(manageLayers);
  var cargaWms = new M.plugin.AddServices();
  map.addPlugin(cargaWms);
  
- /**********************************************************
- * PLUGIN INFO INCENDIO
- **********************************************************/
-
-var infoIncedio = new M.plugin.Plg_info_incendio();
- map.addPlugin(infoIncedio);
- 
+  
  /**********************************************************
  * PLUGIN ACTIVATE
  **********************************************************/
