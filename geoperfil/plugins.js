@@ -562,5 +562,5 @@ map.addPlugin(manageLayers);
  * PLUGIN INFO INCENDIO
  **********************************************************/
 
-var infoIncedio = new Plg_info_incendio();
+var infoIncedio = new M.plugin.Plg_info_incendio();
  map.addPlugin(infoIncedio);
