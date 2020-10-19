@@ -321,7 +321,8 @@
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.ol.min.js",
-		"https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/plg_info_incendio.ol.min.js"
+		"https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/plg_info_incendio.ol.min.js",
+		"https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/plg_activate.ol.min.js"
       ],
       "css": [
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
@@ -334,7 +335,7 @@
     "final": {
       "js": [
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/11eee8f/geoperfil/capas.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/8bc03f4/geoperfil/plugins.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/032eb0a/geoperfil/plugins.js"
       ],
       "css": []
     }
