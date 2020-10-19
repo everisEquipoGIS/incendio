@@ -33,7 +33,7 @@ const barraNavegacion = new M.plugin.PLG_Hor_Navigation({
     },
     "coordinatesZoom": true,
     "addControls": {
-      "add": false,
+      "add": true,
       "controls": [activateInfoIncendio]
     }
   });
