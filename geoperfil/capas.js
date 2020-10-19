@@ -154,68 +154,6 @@ const selectedStyle = new M.style.Polygon({
     }
   }); 
 
-titularidad.on(M.evt.SELECT_FEATURES, (features, evt) => {
-    selectedFeature = features[0];
-  	const atributos = selectedFeature.getAttributes();
-  	titularidad.setStyle(estiloParcelas);
-    selectedFeature.setStyle(selectedStyle);
-    
-    const contenido = `<div id="infoIncendio">
-        <h2> Ref. Catastral: ${atributos.PCA} </h2>
-        <hr>
-        <h3> Propiedad </h3>
-        <b>Tipo de Propiedad:</b>${atributos.SUBTIPOPRO2}<br>
-        <hr>
-        <h3> Superficie Quemada </h3>
-        <b>Superficie total:</b> ${atributos.areaTotalP}<br/>
-        <b> Superficie quemada:</b> ${atributos.areaquemad}<br/>
-        <b> Porcentaje quemado: </b>${atributos.Porcentaje}<br/>
-        <hr>
-        <h3> Ayudas </h3>
-        <b>Ayudas 831:</b> ${atributos.Expediente_831}<br>
-        <b>Ayudas 851:</b> ${atributos.Expediente_851}<br>
-        <hr>
-        <h3> VEGETACIÓN </h3>
-        <h3>Superficie Eucaliptus </h3>
-        <b>1-50%:</b> ${atributos.HA_EUCALIPTUS_1_50}<br>
-        <b>51-100%:</b>${atributos.HA_EUCALIPTUS_51_100}<br>
-        <h3>Superficie Matorral </h3>
-        <b>1-50%:</b> ${atributos.HA_MATO_1_50}<br>
-        <b>51-100%:</b>${atributos.HA_MATO_51_100}<br>
-        <h3>Superficie Pino</h3>
-        <b>1-50%:</b> ${atributos.HA_PINUS_1_50}<br>
-        <b>51-100%:</b> ${atributos.HA_PINUS_51_100}<br>
-        <h3>Superficie Quercus </h3>
-        <b>1-50%:</b> ${atributos.HA_QUERCUS_1_50}<br>
-        <b>51-100%:</b> ${atributos.HA_QUERCUS_51_100}<br>
-        <h3>Superficie HIC </h3>
-        <b>HIC Formación adehesada:</b> ${atributos.HA_HIC_Formación_adehesada}<br>
-        <b>HIC Encinar:</b> ${atributos.HA_HIC_encinar}<br>
-        <b>HIC Jaral Brezal:</b> ${atributos.HA_HIC_jaral_brezal}<br>
-        <h3>Superficie FCC arbórea </h3>
-        <b>1-25%:</b> ${atributos.HA_ARBOL_1_25}<br>
-        <b>26-50%:</b>${atributos.HA_ARBOL_26_50}<br>
-        <b>51-75%:</b> ${atributos.HA_ARBOL_51_75}<br>
-        <b>76-100%:</b> ${atributos.HA_ARBOL_76_100}<br>
-        <hr>
-        <h3> Hectáreas Pendiente </h3>
-        <b>0-5%:</b> ${atributos.HA_PD0_5}<br>
-        <b>5-14%:</b> ${atributos.HA_PD0_5_14}<br>
-        <b>15-25%:</b> ${atributos.HA_PD0_15_25}<br>
-        <b>26-50%:</b> ${atributos.HA_PD0_26_50}<br>
-        <b>51-100%:</b> ${atributos.HA_PD0_51_100}<br>
-    </div>`;
-    
-    const titulo = atributos.REFCAT;
-    
-    const popup = new M.Popup();
-    popup.addTab({
-      'icon': 'g-cartografia-pin',
-      'title': titulo,
-      'content': contenido
-    });
-    this.map.addPopup(popup, evt.coord);
-});
   
 titularidad.setStyle(estiloParcelas);
 
