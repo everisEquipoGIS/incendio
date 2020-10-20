@@ -23,7 +23,7 @@ const barraNavegacion = new M.plugin.PLG_Hor_Navigation({
     "coordinatesZoom": true,
     "addControls": {
       "add": true,
-      "controls": [activateInfoIncendio]
+      "controls": []
     }
   });
 map.addPlugin(barraNavegacion);
