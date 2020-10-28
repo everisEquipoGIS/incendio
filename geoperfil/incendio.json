@@ -9,15 +9,13 @@
       "layerType": "wms",
       "url": "https://www.callejerodeandalucia.es/servicios/base/wms?",
       "name": "batimetria",
-      "legend": "Batimetría",
-      "displayInLayerSwitcher": false
+      "legend": "Batimetría"
     },
     {
       "layerType": "wms",
       "url": "https://www.callejerodeandalucia.es/servicios/base/wms?",
       "name": "contexto_andalucia",
-      "legend": "Contexto",
-      "displayInLayerSwitcher": false
+      "legend": "Contexto"
     }
   ],
   "layers": [
@@ -70,7 +68,7 @@
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
         "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.css",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.min.css",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/c18ff21/geoperfil/estiloGeoperfil.css"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/f282609/geoperfil/estiloGeoperfil.css"
       ]
     },
     "final": {
