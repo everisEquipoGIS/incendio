@@ -41,6 +41,17 @@ div.m-area div.m-panel.plg-navigation.opened button.m-panel-btn.g-navigationtool
 * MANAGE LAYERS
 *****************************************************************/
 
+/* Tamaño toc e imágenes */
+
+#toolbar-managelayers {
+    max-height: 350px;
+}
+
+#toc-baselayers .box {
+    height: 70px;
+    width: 150px;
+}
+
 /* Verde Junta */
 .m-panel.m-managelayers .m-panel-btn.g-cartografia-flecha-derecha,
 #toolbar-managelayers #toolbar-title-managelayers,
