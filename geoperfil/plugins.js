@@ -99,6 +99,7 @@ var configGroups = [];
             }) ,
 			new M.layer.WFS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_instalaciones',
+                namespace: 'ms',
                 name: 'ms:cortafuegos_2011',
                 legend: 'Cortafuegos 2011',
                 geometry: 'POLYGON'
@@ -106,7 +107,7 @@ var configGroups = [];
 			new M.layer.WFS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_instalaciones',
                 namespace: 'ms',
-                name: 'puntos_agua_incendio',
+                name: 'ms:puntos_agua_incendio',
                 legend: 'Puntos Agua de Incendio', 
                 geometry: 'POINT'
             }) ,
