@@ -1,9 +1,9 @@
 {
   "bbox": [678340.5, 4165623.2, 718172.2, 4187223.7],
   "controls": ["mouse"],
-  "projection": "EPSG:25829*m",
+  "projection": "EPSG:25830*m",
   "zoom": 2,
-  "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/incendios/server/mapa_base.xml"],
+  "wmcfiles": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/mapa_base.xml"],
   "constructionLayers": [
     {
       "layerType": "wms",
