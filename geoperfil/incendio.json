@@ -3,7 +3,7 @@
   "controls": ["mouse"],
   "projection": "EPSG:25829*m",
   "zoom": 2,
-  "wmcfiles": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/cc53738/geoperfil/mapa_base.xml"],
+  "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/incendios/server/mapa_base.xml"],
   "constructionLayers": [
     {
       "layerType": "wms",
@@ -74,7 +74,7 @@
     "final": {
       "js": [
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/40d96b3/geoperfil/capas.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/d34c2d8/geoperfil/plugins.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/e03d3e3/geoperfil/plugins.js"
       ],
       "css": []
     }
