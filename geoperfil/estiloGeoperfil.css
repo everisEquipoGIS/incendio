@@ -41,6 +41,14 @@ div.m-area div.m-panel.plg-navigation.opened button.m-panel-btn.g-navigationtool
 * MANAGE LAYERS
 *****************************************************************/
 
+/* Verde Junta */
+.m-panel.m-managelayers .m-panel-btn.g-cartografia-flecha-derecha,
+#toolbar-managelayers #toolbar-title-managelayers,
+#toolbar-managelayers #toolbar-buttons-managelayers,
+.m-panel.plg-navigation .m-panel-btn {
+    background: #00642a!important;
+}
+
 /* Oculta capas Catastro, Batimetría y Contexto en el TOC */
 #toc-activelayers div[id*='contexto_andalucia'].toc-item-layer, 
 #toc-activelayers div[id*='batimetria'].toc-item-layer,
@@ -69,5 +77,5 @@ div[data-id*='g13_01_TerminoMunicipal'] .legend
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAAZCAYAAADT59fvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJYSURBVGhD7ZpdTsMwDMd7rhyo5+kzu0el8QJn4HU7AJwiJK5tXDdpu3ZJy+SfZCkfTuLY/2WAaLxhFMCEZRTBhGUUwYRlFIGF9Xa/+o/vr012ub/jLoYxwMKKAtnK58/2tcZrYsIyimDCMopwImH1vm0a37jO33DEqEjf+ibmv+1xYB+FhYViSZkSUN9Ox/Zw6xyc47rCMr113uGdRmdRoRrn94Sw5h5Puev/EtYf1QpdGxKWc97xB+PmO+jvF1Y1Xk5Y/MlGo+JwwUIffFrfyyLymjAu96D1MlHUluvE60ixkckY4SXNzAEizi74Ql3iWBv6UlgyHugO+0F3Lj61jvvST/pQPNonrk3M8X3WnDPMhCkxHiz1WBwrLLyovhz0uWCUbCGs2IblKIi5YsUOtTE5WT81t+qV5TixwGFh3KPt46sV93pEWAvxKb9weBAznks+Mp7okb3DTHwzdVmVk8ChwmJhaJMJQhEBC0lbLAhMjP1Ga4ZJ9tXxJZM5igmLJduPCGthbhIrIderHOm9pzmfxjdXl1U5CZxCWMsFQyoLa9QnY0ckFSdwPmGl85UXVk407Es2Cejor0IOULxKRCVhzc5J6Gw98aiw0G91DKl78FnhjIWvQrkXtYd8zQif2qm6SHI5CRz/wzsFJwx8UgVTY08RVoD2IaP99PgoFiIVJ6AKx/2xTWKFbn6O+2TxXOmTyCevHf35R/3Wqs/J1GVVTgLVhGVUIiv0upiwXo2zCSv+60sUyBa73K+4i2EMsLAM45mYsIwimLCMIpiwjCKYsIwCeP8LAzhYbvSGLH0AAAAASUVORK5CYII=);
     background-repeat: no-repeat;
     background-position: left bottom;
-    height: 200px;
+    height: 80px;
 }
