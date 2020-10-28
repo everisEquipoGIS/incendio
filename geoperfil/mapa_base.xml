@@ -3,7 +3,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Callejero" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengis.net/context/1.1.0/context.xsd">
     <General>
         <Window height="370" width="610"/>
-        <BoundingBox SRS="EPSG:25829" maxx="621889.9370" maxy="4299792.1070" minx="96388.1179" miny="3959795.9442"/>
+        <BoundingBox SRS="EPSG:25829" maxx="717852" maxy="4187207" minx="680081" miny="4165430"/>
         <Title>Capas Base</Title>
         <Extension>
             <ol:maxExtent xmlns:ol="http://openlayers.org/context" maxx="771889.9370" maxy="4599792.1070" minx="31388.1179" miny="3659795.9442"/>
