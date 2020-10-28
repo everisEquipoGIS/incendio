@@ -9,13 +9,15 @@
       "layerType": "wms",
       "url": "https://www.callejerodeandalucia.es/servicios/base/wms?",
       "name": "batimetria",
-      "legend": "Batimetría"
+      "legend": "Batimetría",
+      "displayInLayerSwitcher": false
     },
     {
       "layerType": "wms",
       "url": "https://www.callejerodeandalucia.es/servicios/base/wms?",
       "name": "contexto_andalucia",
-      "legend": "Contexto"
+      "legend": "Contexto",
+      "displayInLayerSwitcher": false
     }
   ],
   "layers": [
