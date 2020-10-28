@@ -91,33 +91,24 @@ var configGroups = [];
             }),
 			new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_equipamientos_incendios_2020?',
-                name: 'Veh%C3%ADculos_contra_incendios',
+                name: 'Vehículos_contra_incendios',
                 legend: 'Vehiculos contra Incendios',
                 version: '1.1.1',
                 transparent: true,
                 tiled: true
-            }) ,	
-			new M.layer.WFS({
-                url: 'http://servintegra.cma.junta-andalucia.es/medioambiente/mapwms/REDIAM_wfs_instalaciones?',
-                name: 'ms:equipamientos_incendios',
-                legend: 'Equipamientos contra Incendios', 
-				geometry: 'POINT' 
             }) ,
 			new M.layer.WFS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_instalaciones',
                 name: 'ms:cortafuegos_2011',
-                legend: 'Cortafuegos 2011', 
-                version: '1.1.1',
-                transparent: true,
-                tiled: true 
+                legend: 'Cortafuegos 2011',
+                geometry: 'POLYGON'
             }) ,
 			new M.layer.WFS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_instalaciones',
-                name: 'ms:puntos_agua_incendio',
+                namespace: 'ms',
+                name: 'puntos_agua_incendio',
                 legend: 'Puntos Agua de Incendio', 
-                version: '1.1.1',
-                transparent: true,
-                tiled: true 
+                geometry: 'POINT'
             }) ,
 			new M.layer.WMS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_equipamientos_incendios_2020?',
