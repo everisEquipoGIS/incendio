@@ -21,42 +21,16 @@
   "layers": [
     {
       "layerType": "wms",
-      "url": "https://www.ideandalucia.es/wms/mta10v_2007?",
-      "name": "mta10v_2007",
-      "legend": "Topográfico 1:10000 (vectorial)",
-      "transparent": true,
+      "name": "g13_01_TerminoMunicipal",
+      "legend": "Términos municipales",
+      "url": "https://www.ideandalucia.es/services/DERA_g13_limites_administrativos/wms?sld_body=%3Csld%3AStyledLayerDescriptor%20version%3D%221.0.0%22%20xmlns%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%22%20xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%22%20xmlns%3Aogc%3D%22http%3A%2F%2Fwww.opengis.net%2Fogc%22%20xmlns%3Asld%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%22%3E%3Csld%3ANamedLayer%3E%3Csld%3AName%3EDERA_g13_limites_administrativos%3Ag13_01_TerminoMunicipal%3C%2Fsld%3AName%3E%3Csld%3AUserStyle%3E%3Csld%3AFeatureTypeStyle%3E%3Csld%3ARule%3E%3CMaxScaleDenominator%3E150000%3C%2FMaxScaleDenominator%3E%3CTextSymbolizer%3E%3Csld%3AGeometry%3E%3Cogc%3AFunction%20name%3D%22centroid%22%3E%0A%3Cogc%3APropertyName%3Egeom%3C%2Fogc%3APropertyName%3E%3C%2Fogc%3AFunction%3E%3C%2Fsld%3AGeometry%3E%3CLabel%3E%3Cogc%3APropertyName%3Enombre%3C%2Fogc%3APropertyName%3E%3C%2FLabel%3E%3CFont%3E%3CCssParameter%20name%3D%22font-family%22%3EArial%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22font-size%22%3E12%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22font-style%22%3Enormal%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22font-weight%22%3Ebold%3C%2FCssParameter%3E%3C%2FFont%3E%3CLabelPlacement%3E%3CPointPlacement%3E%3CAnchorPoint%3E%3CAnchorPointX%3E0.5%3C%2FAnchorPointX%3E%3CAnchorPointY%3E0.5%3C%2FAnchorPointY%3E%3C%2FAnchorPoint%3E%3C%2FPointPlacement%3E%3C%2FLabelPlacement%3E%3CFill%3E%3CCssParameter%20name%3D%22fill%22%3E%23000000%3C%2FCssParameter%3E%3C%2FFill%3E%3Csld%3AHalo%3E%3Csld%3ARadius%3E2%3C%2Fsld%3ARadius%3E%3Csld%3AFill%3E%3Csld%3ACssParameter%20name%3D%22fill%22%3E%23ffffff%3C%2Fsld%3ACssParameter%3E%3C%2Fsld%3AFill%3E%3C%2Fsld%3AHalo%3E%3CVendorOption%20name%3D%22autoWrap%22%3E100%3C%2FVendorOption%3E%3CVendorOption%20name%3D%22maxDisplacement%22%3E50%3C%2FVendorOption%3E%3CVendorOption%20name%3D%22repeat%22%3E1%3C%2FVendorOption%3E%3C%2FTextSymbolizer%3E%3C%2Fsld%3ARule%3E%3Csld%3ARule%3E%3Csld%3ALineSymbolizer%3E%3Csld%3AStroke%3E%3Csld%3ACssParameter%20name%3D%22stroke%22%3E%236dcc98%3C%2Fsld%3ACssParameter%3E%3Csld%3ACssParameter%20name%3D%22stroke-linecap%22%3Eround%3C%2Fsld%3ACssParameter%3E%3Csld%3ACssParameter%20name%3D%22stroke-linejoin%22%3Eround%3C%2Fsld%3ACssParameter%3E%3Csld%3ACssParameter%20name%3D%22stroke-width%22%3E0.8%3C%2Fsld%3ACssParameter%3E%3C%2Fsld%3AStroke%3E%3C%2Fsld%3ALineSymbolizer%3E%3C%2Fsld%3ARule%3E%3C%2Fsld%3AFeatureTypeStyle%3E%3C%2Fsld%3AUserStyle%3E%3C%2Fsld%3ANamedLayer%3E%3C%2Fsld%3AStyledLayerDescriptor%3E",
       "tiled": true,
-      "visibility": false
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Municipios",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/TerminosMunicipales.geojson",
-        "extract": false
-      },
-      "style": {
-        "type": "Polygon",
-        "options": {
-          "label": {
-            "text": "{{nombre}}",
-            "scale": "1.3",
-            "stroke": {
-              "color": "white",
-              "width": 2
-            }
-          },
-          "stroke": {
-            "color": "#CCCED7",
-            "width": 2
-          }
-        }
-      },
       "zindex": 2400
     }, {
       "layerType": "geojson",
       "layer": {
         "name": "Zona del Incendio",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/Perimetro_Incendio.geojson",
+        "url": "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/capas/Perimetro_Incendio.geojson",
         "extract": false
       },
       "style": {
@@ -76,243 +50,11 @@
     }, {
       "layerType": "geojson",
       "layer": {
-        "name": "Ayudas 831 Prevención Incendios",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/Parcelas_Incendio.geojson",
-        "extract": false
-      },
-      "zindex": 2200
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Ayudas 851 Ecosistemas Forestales",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/Parcelas_Incendio.geojson",
-        "extract": false
-      },
-      "zindex": 2201
-    }, {
-      "layerType": "geojson",
-      "layer": {
         "name": "Titularidad",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/Parcelas_Incendio.geojson",
+        "url": "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/capas/Parcelas_Incendio.geojson",
         "extract": false
       },
       "zindex": 2100
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Usos Simples",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/USO_SIMPLES.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1400
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Pendientes del 0-5%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD0_5.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1955
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Pendientes del 5-14%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD5_14.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1954
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Pendientes del 15-25%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD15_25.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1953
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Pendientes del 26-50%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD26_50.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1952
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Pendientes del 51-100%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PD51_100.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1951
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC Arbustiva de 0-50%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_MATO_1_50.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1941
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC Arbustiva de 51-100%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_MATO_51_100.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1940
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC de Eucaliptar de 0-50%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_EUCALIPTUS_0_50.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1931
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC de Eucaliptar de 51-100%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_EUCALIPTUS_51_100.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1930
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC de Pinar de 0-50%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PINUS_0_50.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1921
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC de Pinar de 51-100%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_PINUS_51_100.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1920
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC de Quercus de 0-50%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_QUERCUS_0_50_.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1911
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC de Quercus de 51-100%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_QUERCUS_51_100.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1910
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC Arbórea de 0-25%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_1_25.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1904
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC Arbórea de 26-50%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_26_50.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1903
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC Arbórea de 51-75%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_51_75.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1902
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con FCC Arbórea de 76-100%",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_ARBOL_76_100.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1901
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Presencia del HIC de Encinar",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_HIC_ENCINAR.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1901
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Presencia del HIC de Brezal",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_HIC_JARAL_BREZAL.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1901
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Hectáreas con Presencia del HIC de Formaciones Adehesadas",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/HA_HIC_FORMACION_ADEHESADA.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1901
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Probabilidad Aparición Especies del Catálogo de Especies Amenazadas",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/SP_AMENAZ.geojson",
-        "extract": false
-      },
-      "visibility": false,
-      "zindex": 1400
-    }, {
-      "layerType": "geojson",
-      "layer": {
-        "name": "Caminos Ámbito Almonaster",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/capas/master/caminos.geojson",
-        "extract": false
-      },
-      "style": {
-        "type": "Line",
-        "options": {          
-          "stroke": {
-            "color": "#815125",
-            "width": 2
-          }
-        }
-      },
-      "visibility": false,
-      "zindex": 1001
     }
   ],
   "scripts": {
@@ -331,7 +73,7 @@
     },
     "final": {
       "js": [
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/11eee8f/geoperfil/capas.js",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/0dd4a9f/geoperfil/capas.js",
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/3c69b3d/geoperfil/plugins.js"
       ],
       "css": []
