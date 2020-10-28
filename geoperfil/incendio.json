@@ -1,7 +1,7 @@
 {
   "bbox": [678340.5, 4165623.2, 718172.2, 4187223.7],
   "controls": ["mouse"],
-  "projection": "EPSG:25829*m",
+  "projection": "EPSG:25830*m",
   "zoom": 2,
   "wmcfiles": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/mapa_base.xml"],
   "constructionLayers": [
@@ -74,7 +74,7 @@
     "final": {
       "js": [
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/40d96b3/geoperfil/capas.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/b66bbab/geoperfil/plugins.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/d34c2d8/geoperfil/plugins.js"
       ],
       "css": []
     }
