@@ -10,10 +10,10 @@ let estado = new M.style.Polygon({fill: {color: '#ff58d9'}, stroke: {color: "bla
 let junta = new M.style.Polygon({fill: {color: '#277d2e'}, stroke: {color: "black", width: 1}});
 let privado = new M.style.Polygon({fill: {color: '#e1ff76'}, stroke: { color: 'black', width: 2 }});
  
-let estiloParcelas = new M.style.Category("SUBTIPOPRO2", {
+let estiloParcelas = new M.style.Category("TipoPropiedad", {
   "AYUNTAMIENTO": ayuntamiento,
   "DIPUTACIÓN": diputacion,
-  "EN INVESTIGACIÓN": investigacion,
+  "EN INVESTIGACION": investigacion,
   "ESTADO": estado,
   "JUNTA DE ANDALUCÍA": junta,
   "PRIVADO": privado,
@@ -33,4 +33,4 @@ const selectedStyle = new M.style.Polygon({
   }); 
 
   
-titularidad.setStyle(estiloParcelas);
+if (titularidad) titularidad.setStyle(estiloParcelas);
