@@ -74,7 +74,7 @@
     "final": {
       "js": [
         "https://cdn.statically.io/gh/everisEquipoGIS/incendio/40d96b3/geoperfil/capas.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/3c69b3d/geoperfil/plugins.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/34ecab6/geoperfil/plugins.js"
       ],
       "css": []
     }
