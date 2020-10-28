@@ -6,7 +6,7 @@
         <BoundingBox SRS="EPSG:25829" maxx="717852" maxy="4187207" minx="680081" miny="4165430"/>
         <Title>Capas Base</Title>
         <Extension>
-            <ol:maxExtent xmlns:ol="http://openlayers.org/context" maxx="771889.9370" maxy="4599792.1070" minx="31388.1179" miny="3659795.9442"/>
+            <ol:maxExtent xmlns:ol="http://openlayers.org/context" maxx="717852" maxy="4187207" minx="680081" miny="4165430"/>
         </Extension>
         <KeywordList>
             <Keyword>PNOA</Keyword>
