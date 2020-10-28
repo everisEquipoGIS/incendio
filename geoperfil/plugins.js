@@ -78,7 +78,7 @@ map.addPlugin(new M.plugin.Attributions(paramsAttributions));
             DNPRC_url: "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/ovccallejero.asmx/Consulta_DNPRC",
             CPMRC_url: "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCoordenadas.asmx/Consulta_CPMRC",
             DNPPP_url: "https://ovc.catastro.meh.es/ovcservweb/OVCSWLocalizacionRC/OVCCallejeroCodigos.asmx/Consulta_DNPPP_Codigos",
-            RCWMS_url: "https://www1.sedecatastro.gob.es/CYCBienInmueble/OVCConCiud.aspx", //?del=41&mun=38&UrbRus=U&RefC=41038A036001890000HT
+            RCWMS_url: "https://www1.sedecatastro.gob.es/CYCBienInmueble/OVCConCiud.aspx",
             DNPLOC_url: "https://ovc.catastro.meh.es/ovcservweb/ovcswlocalizacionrc/ovccallejero.asmx/Consulta_DNPLOC",
             catastroWMS: {
                 wms_url: "https://ovc.catastro.meh.es/Cartografia/WMS/ServidorWMS.aspx?",
@@ -142,7 +142,7 @@ var configGroups = [];
             }) ,
 			new M.layer.WFS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_instalaciones',
-                name: '',
+                name: 'ms:cortafuegos_2011',
                 legend: 'Cortafuegos 2011', 
                 version: '1.1.1',
                 transparent: true,
@@ -150,7 +150,7 @@ var configGroups = [];
             }) ,
 			new M.layer.WFS({
                 url: 'http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_instalaciones',
-                name: '',
+                name: 'ms:puntos_agua_incendio',
                 legend: 'Puntos Agua de Incendio', 
                 version: '1.1.1',
                 transparent: true,
