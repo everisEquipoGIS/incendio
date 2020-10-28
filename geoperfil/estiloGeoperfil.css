@@ -44,7 +44,6 @@ div.m-area div.m-panel.plg-navigation.opened button.m-panel-btn.g-navigationtool
 /* Oculta capas Catastro, Batimetría y Contexto en el TOC */
 #toc-activelayers div[id*='contexto_andalucia'].toc-item-layer, 
 #toc-activelayers div[id*='batimetria'].toc-item-layer,
-#toc-activelayers div[id*='g13_01_TerminoMunicipal'].toc-item-layer,
 #toc-activelayers div[id*='layerThatContainSelectedFeatures'].toc-item-layer,
 #toc-activelayers div[id*='layerChangingColorWhenHovering'].toc-item-layer,
 #toc-activelayers div[id$='_'].toc-item-layer {
@@ -53,7 +52,8 @@ div.m-area div.m-panel.plg-navigation.opened button.m-panel-btn.g-navigationtool
 
 /* LEYENDA DE CAPAS CON ESTILO COMPLEJO */      
         
-div[data-id*='Titularidad'] .legend img {
+div[data-id*='Titularidad'] .legend img,
+div[data-id*='g13_01_TerminoMunicipal'] .legend img {
     display: none;
 }
 
