@@ -1,7 +1,7 @@
 {
   "bbox": [678340.5, 4165623.2, 718172.2, 4187223.7],
   "controls": ["mouse"],
-  "projection": "EPSG:25830*m",
+  "projection": "EPSG:25829*m",
   "zoom": 2,
   "wmcfiles": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/geoperfil/mapa_base.xml"],
   "constructionLayers": [
