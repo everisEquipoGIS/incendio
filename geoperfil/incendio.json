@@ -3,7 +3,7 @@
   "controls": ["mouse"],
   "projection": "EPSG:25829*m",
   "zoom": 2,
-  "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/IG/mapa_base.xml"],
+  "wmcfiles": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/cc53738/geoperfil/mapa_base.xml"],
   "constructionLayers": [
     {
       "layerType": "wms",
@@ -310,17 +310,17 @@
   "scripts": {
     "inicio": {
       "js": [
-        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/JS/attributions.ol.min.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js"
       ],
       "css": [
-        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/CSS/attributions.min.css",
-        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/CSS/estiloGeoperfil.css"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/2eb6e3b/geoperfil/estiloGeoperfil.css"
       ]
     },
     "final": {
       "js": [
-        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/JS/capas.js",
-        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/JS/plugins.js"
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/40d96b3/geoperfil/capas.js",
+        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/c27c958/geoperfil/plugins.js"
       ],
       "css": []
     }
