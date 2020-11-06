@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Callejero" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/context http://schemas.opengis.net/context/1.1.0/context.xsd">
     <General>
         <Window height="370" width="610"/>
-        <BoundingBox SRS="EPSG:25829" maxx="717852" maxy="4187207" minx="680081" miny="4165430"/>
+        <BoundingBox SRS="EPSG:25830" maxx="621889.9370" maxy="4299792.1070" minx="96388.1179" miny="3959795.9442"/>
         <Title>Capas Base</Title>
         <Extension>
-            <ol:maxExtent xmlns:ol="http://openlayers.org/context" maxx="717852" maxy="4187207" minx="680081" miny="4165430"/>
+            <ol:maxExtent xmlns:ol="http://openlayers.org/context" maxx="771889.9370" maxy="4599792.1070" minx="31388.1179" miny="3659795.9442"/>
         </Extension>
         <KeywordList>
             <Keyword>PNOA</Keyword>
@@ -31,7 +31,7 @@ Fichero de configuración del contexto de visualización de capas.
             <Title>
 PNOA máxima actualidad publicada por el Instituto Geográfico Nacional
             </Title>
-            <SRS>EPSG:25829</SRS>
+            <SRS>EPSG:25830</SRS>
             <FormatList>
                 <Format current="1">image/png; mode=8bit</Format>
             </FormatList>
@@ -61,7 +61,7 @@ PNOA máxima actualidad publicada por el Instituto Geográfico Nacional
             </Server>
             <Name>CDAU_base</Name>
             <Title>Base Cartográfica Callejero Digital de Andalucía</Title>
-            <SRS>EPSG:25829</SRS>
+            <SRS>EPSG:25830</SRS>
             <FormatList>
                 <Format current="1">image/png</Format>
             </FormatList>
@@ -91,7 +91,7 @@ PNOA máxima actualidad publicada por el Instituto Geográfico Nacional
             </Server>
             <Name>sombreado_siose_2013</Name>
             <Title>Siose + MDT 2013</Title>
-            <SRS>EPSG:25829</SRS>
+            <SRS>EPSG:25830</SRS>
             <FormatList>
                 <Format current="1">image/png; mode=24bit</Format>
             </FormatList>
@@ -123,7 +123,7 @@ PNOA máxima actualidad publicada por el Instituto Geográfico Nacional
             <Title>
 Modelo Digital del Terreno 2016 (tintas Hipsométricas)
             </Title>
-            <SRS>EPSG:25829</SRS>
+            <SRS>EPSG:25830</SRS>
             <FormatList>
                 <Format current="1">image/png; mode=24bit</Format>
             </FormatList>
@@ -154,7 +154,7 @@ Modelo Digital del Terreno 2016 (tintas Hipsométricas)
             </Server>
             <Name>IGNBaseTodo</Name>
             <Title>Mapa base del Instituto Geográfico Nacional</Title>
-            <SRS>EPSG:25829</SRS>
+            <SRS>EPSG:25830</SRS>
             <FormatList>
                 <Format current="1">image/png; mode=8bit</Format>
             </FormatList>
