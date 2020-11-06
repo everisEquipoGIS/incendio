@@ -3,7 +3,7 @@
   "controls": ["mouse"],
   "projection": "EPSG:25829*m",
   "zoom": 2,
-  "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/incendios/server/mapa_base.xml"],
+  "wmcfiles": ["https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/IG/mapa_base.xml"],
   "constructionLayers": [
     {
       "layerType": "wms",
@@ -26,13 +26,15 @@
       "url": "https://www.ideandalucia.es/services/DERA_g13_limites_administrativos/wms?sld_body=%3Csld%3AStyledLayerDescriptor%20version%3D%221.0.0%22%20xmlns%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%22%20xmlns%3Agml%3D%22http%3A%2F%2Fwww.opengis.net%2Fgml%22%20xmlns%3Aogc%3D%22http%3A%2F%2Fwww.opengis.net%2Fogc%22%20xmlns%3Asld%3D%22http%3A%2F%2Fwww.opengis.net%2Fsld%22%3E%3Csld%3ANamedLayer%3E%3Csld%3AName%3EDERA_g13_limites_administrativos%3Ag13_01_TerminoMunicipal%3C%2Fsld%3AName%3E%3Csld%3AUserStyle%3E%3Csld%3AFeatureTypeStyle%3E%3Csld%3ARule%3E%3CMaxScaleDenominator%3E150000%3C%2FMaxScaleDenominator%3E%3CTextSymbolizer%3E%3Csld%3AGeometry%3E%3Cogc%3AFunction%20name%3D%22centroid%22%3E%0A%3Cogc%3APropertyName%3Egeom%3C%2Fogc%3APropertyName%3E%3C%2Fogc%3AFunction%3E%3C%2Fsld%3AGeometry%3E%3CLabel%3E%3Cogc%3APropertyName%3Enombre%3C%2Fogc%3APropertyName%3E%3C%2FLabel%3E%3CFont%3E%3CCssParameter%20name%3D%22font-family%22%3EArial%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22font-size%22%3E12%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22font-style%22%3Enormal%3C%2FCssParameter%3E%3CCssParameter%20name%3D%22font-weight%22%3Ebold%3C%2FCssParameter%3E%3C%2FFont%3E%3CLabelPlacement%3E%3CPointPlacement%3E%3CAnchorPoint%3E%3CAnchorPointX%3E0.5%3C%2FAnchorPointX%3E%3CAnchorPointY%3E0.5%3C%2FAnchorPointY%3E%3C%2FAnchorPoint%3E%3C%2FPointPlacement%3E%3C%2FLabelPlacement%3E%3CFill%3E%3CCssParameter%20name%3D%22fill%22%3E%23000000%3C%2FCssParameter%3E%3C%2FFill%3E%3Csld%3AHalo%3E%3Csld%3ARadius%3E2%3C%2Fsld%3ARadius%3E%3Csld%3AFill%3E%3Csld%3ACssParameter%20name%3D%22fill%22%3E%23ffffff%3C%2Fsld%3ACssParameter%3E%3C%2Fsld%3AFill%3E%3C%2Fsld%3AHalo%3E%3CVendorOption%20name%3D%22autoWrap%22%3E100%3C%2FVendorOption%3E%3CVendorOption%20name%3D%22maxDisplacement%22%3E50%3C%2FVendorOption%3E%3CVendorOption%20name%3D%22repeat%22%3E1%3C%2FVendorOption%3E%3C%2FTextSymbolizer%3E%3C%2Fsld%3ARule%3E%3Csld%3ARule%3E%3Csld%3ALineSymbolizer%3E%3Csld%3AStroke%3E%3Csld%3ACssParameter%20name%3D%22stroke%22%3E%236dcc98%3C%2Fsld%3ACssParameter%3E%3Csld%3ACssParameter%20name%3D%22stroke-linecap%22%3Eround%3C%2Fsld%3ACssParameter%3E%3Csld%3ACssParameter%20name%3D%22stroke-linejoin%22%3Eround%3C%2Fsld%3ACssParameter%3E%3Csld%3ACssParameter%20name%3D%22stroke-width%22%3E0.8%3C%2Fsld%3ACssParameter%3E%3C%2Fsld%3AStroke%3E%3C%2Fsld%3ALineSymbolizer%3E%3C%2Fsld%3ARule%3E%3C%2Fsld%3AFeatureTypeStyle%3E%3C%2Fsld%3AUserStyle%3E%3C%2Fsld%3ANamedLayer%3E%3C%2Fsld%3AStyledLayerDescriptor%3E",
       "tiled": true,
       "zindex": 2400
-    }, {
+    }, 
+	  {
       "layerType": "geojson",
       "layer": {
         "name": "Zona del Incendio",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/capas/Perimetro_Incendio.geojson",
+        "url": "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/IG/Perimetro_Incendio.geojson",
         "extract": false
       },
+	  
       "style": {
         "type": "Polygon",
         "options": {
@@ -51,30 +53,274 @@
       "layerType": "geojson",
       "layer": {
         "name": "Titularidad",
-        "url": "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/capas/Parcelas_Incendio.geojson",
+        "url": "http://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_WFS_base_vege_incendio_almonaster?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAME=catastro_vege&outputFormat=application/json; subtype=geojson",
         "extract": false
       },
       "zindex": 2100
+    }, 	 
+	  {
+      "layerType": "wms",
+      "name": "Datos originales de vegetación, Incendio de Almonaster La Real, año 2020",
+      "legend": "resumen_vegetacion",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_base_vege_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },		
+  	{
+      "layerType": "wms",
+      "name": "Cortafuegos",
+      "legend": "cortafuegos",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_infraestructuras_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },		
+	  {
+      "layerType": "wms",
+      "name": "Vías de comunicación (carreteras y caminos)",
+      "legend": "camino",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_infraestructuras_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },	 	
+  	{
+      "layerType": "wms",
+      "name": "Ocupacion del Suelo, Nivel Medio",
+      "legend": "pendientes_incendio_almonaster",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_pendientes_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },	  
+	  {
+      "layerType": "wms",
+      "name": "Mapa de Pendientes. Incendio de Almonaster La Real, Huelva.",
+      "legend": "pendientes_incendio_almonaster",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_pendientes_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },	
+	  {
+      "layerType": "wms",
+      "name": "porcen_parcela_pendiente_menor_5",
+      "legend": "Porcentaje de parcela con pendiente <5%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_pendientes_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },		
+  	{
+      "layerType": "wms",
+      "name": "porcen_parcela_pendiente_5_14",
+      "legend": "Porcentaje de parcela con pendiente 5 - 14,9%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_pendientes_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },		
+  	{
+      "layerType": "wms",
+      "name": "porcen_parcela_pendiente_15_25",
+      "legend": "Porcentaje de parcela con pendiente 15 - 25%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_pendientes_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },		
+  	{
+      "layerType": "wms",
+      "name": "porcen_parcela_pendiente_25_50",
+      "legend": "Porcentaje de parcela con pendiente 25 - 50%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_pendientes_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },		
+  	{
+      "layerType": "wms",
+      "name": "porcen_parcela_pendiente_mayor_50",
+      "legend": "Porcentaje de parcela con pendiente > 50%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_pendientes_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },	
+  	{
+      "layerType": "wms",
+      "name": "distribucion_arbolado",
+      "legend": "Distribución del arbolado",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_arb_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },
+  	{
+      "layerType": "wms",
+      "name": "porcentaje_parcela_arbolado_1_25",
+      "legend": "Porcentaje de parcela con arbolado 1 - 25%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_arb_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },
+  	{
+      "layerType": "wms",
+      "name": "porcentaje_parcela_arbolado_26_50",
+      "legend": "Porcentaje de parcela con arbolado 25 - 50%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_arb_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },
+  	{
+      "layerType": "wms",
+      "name": "porcentaje_parcela_arbolado_51_75",
+      "legend": "Porcentaje de parcela con arbolado 50 - 75%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_arb_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },
+  	{
+      "layerType": "wms",
+      "name": "porcentaje_parcela_arbolado_76_100",
+      "legend": "Porcentaje de parcela con arbolado 75 - 100%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_arb_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    }, 
+  	{
+      "layerType": "wms",
+      "name": "porcentaje_parcela_arbolado_76_100",
+      "legend": "Porcentaje de parcela con arbolado 75 - 100%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_arb_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },  
+	  {
+      "layerType": "wms",
+      "name": "distribucion_matorral",
+      "legend": "Distribución del matorral",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_mat_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    }, 
+	  {
+      "layerType": "wms",
+      "name": "porcentaje_parcela_matorral_1_50",
+      "legend": "Porcentaje de parcela con matorral 1 - 50%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_mat_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },  
+  	{
+      "layerType": "wms",
+      "name": "porcentaje_parcela_matorral_51_100",
+      "legend": "Porcentaje de parcela con matorral 51 - 100%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_veg_mat_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },     
+	  {
+      "layerType": "wms",
+      "name": "Distribución_de_Eucalipto",
+      "legend": "Distribución de Eucalipto",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_eucalipto_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    }, 
+  	{
+      "layerType": "wms",
+      "name": "Porcentaje_parcela_Eucalipto_0_50",
+      "legend": "Porcentaje de parcela con Eucalipto 1 - 50%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_eucalipto_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },  
+	  {
+      "layerType": "wms",
+      "name": "porcentaje_parcela_Eucalipto_51_100",
+      "legend": "Porcentaje de parcela con Eucalipto 51 - 100%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_eucalipto_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },   
+  	{
+      "layerType": "wms",
+      "name": "Distribucion_Quercineas",
+      "legend": "Distribución de Quercíneas (Quercus ilex)",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_quercus_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },  
+	  {
+      "layerType": "wms",
+      "name": "Porcentaje_parcela_Quercus_0_50",
+      "legend": "Porcentaje de parcela con Quercus 1 - 50%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_quercus_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    }, 
+  	{
+      "layerType": "wms",
+      "name": "Porcentaje_parcela_Quercus_51_100",
+      "legend": "Porcentaje de parcela con Quercus 51 - 100%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_quercus_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },	 	  
+	  {
+      "layerType": "wms",
+      "name": "Porcentaje_parcela_Coniferas_0_50",
+      "legend": "Coníferas",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_coniferas_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },	 
+  	{
+      "layerType": "wms",
+      "name": "Porcentaje_parcela_Coniferas_0_50",
+      "legend": "Porcentaje de parcela con Coníferas 1 - 50%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_coniferas_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },	 
+  	{
+      "layerType": "wms",
+      "name": "Porcentaje_parcela_Coniferas_51_100",
+      "legend": "Porcentaje de parcela con Coníferas 51 - 100%",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_coniferas_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },		
+  	{
+      "layerType": "wms",
+      "name": "HICs_Dehesas",
+      "legend": "HIC Formaciones Adehesadas",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Habitats_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },
+    {
+      "layerType": "wms",
+      "name": "HICs_Brezal_Jaral",
+      "legend": "HICs Brezal y Jaral",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Habitats_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
+    },
+  	{
+      "layerType": "wms",
+      "name": "HICs_Encinar",
+      "legend": "HICs Encinar",
+      "url": "https://www.juntadeandalucia.es/medioambiente/mapwms/REDIAM_Habitats_incendio_almonaster?",
+      "tiled": true,
+      "zindex": 2400
     }
   ],
   "scripts": {
     "inicio": {
       "js": [
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.ol.min.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.ol.min.js"
+        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/JS/attributions.ol.min.js"
       ],
       "css": [
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/attributions.min.css",
-        "https://cdn.statically.io/gh/everisEquipoGIS/PLG-COMUNICACION-CATASTRO/main/plg_comunicacion_catastro.ol.min.css",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/main/managelayers.min.css",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/2eb6e3b/geoperfil/estiloGeoperfil.css"
+        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/CSS/attributions.min.css",
+        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/CSS/estiloGeoperfil.css"
       ]
     },
     "final": {
       "js": [
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/40d96b3/geoperfil/capas.js",
-        "https://cdn.statically.io/gh/everisEquipoGIS/incendio/c27c958/geoperfil/plugins.js"
+        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/JS/capas.js",
+        "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/JS/plugins.js"
       ],
       "css": []
     }
