@@ -3,7 +3,7 @@
   "controls": ["mouse"],
   "projection": "EPSG:25829*m",
   "zoom": 2,
-  "wmcfiles": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/cc53738/geoperfil/mapa_base.xml"],
+  "wmcfiles": ["https://cdn.statically.io/gh/everisEquipoGIS/incendio/6986295/geoperfil/mapa_base.xml"],
   "constructionLayers": [
     {
       "layerType": "wms",
