@@ -37,4 +37,6 @@ if (titularidad) titularidad.setStyle(estiloParcelas);
 
 /* GETFEATUREINFOBYLAYERS ACTIVADO */
 
-capas.find(l => l.name === "Coniferas").gf.options.identify = true;
+setTimeout(function(){ 
+  capas.find(l => l.name === "Coniferas").gf.options.identify = true;
+ }, 3000);
