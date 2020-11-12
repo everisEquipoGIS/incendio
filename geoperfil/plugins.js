@@ -3,12 +3,14 @@
  * PLUGIN PLG_HOR_NAVIGATION
  **********************************************************/
 
+const getfeatureinfocontrol = new M.control.getfeatureinfobylayersControl();
+
 const barraNavegacion = new M.plugin.PLG_Hor_Navigation({
     "measureLength": true,
     "measureArea": true,
     "geocalc": false,
     "identify": {
-      "all": true
+      "all": false
     },
     "catastroSearch": {
       "add": false,
@@ -23,7 +25,7 @@ const barraNavegacion = new M.plugin.PLG_Hor_Navigation({
     "coordinatesZoom": true,
     "addControls": {
       "add": true,
-      "controls": []
+      "controls": [getfeatureinfocontrol]
     }
   });
 map.addPlugin(barraNavegacion);
