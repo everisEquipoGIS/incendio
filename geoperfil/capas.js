@@ -34,3 +34,7 @@ const selectedStyle = new M.style.Polygon({
 
   
 if (titularidad) titularidad.setStyle(estiloParcelas);
+
+/* GETFEATUREINFOBYLAYERS ACTIVADO */
+
+capas.find(l => l.name === "Coniferas").gf.options.identify = true;
