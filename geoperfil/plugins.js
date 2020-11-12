@@ -8,7 +8,7 @@ const barraNavegacion = new M.plugin.PLG_Hor_Navigation({
     "measureArea": true,
     "geocalc": false,
     "identify": {
-      "all": false
+      "all": true
     },
     "catastroSearch": {
       "add": false,
