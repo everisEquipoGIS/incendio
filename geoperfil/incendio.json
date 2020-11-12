@@ -387,7 +387,7 @@
     "final": {
     "js": [
       "https://www.juntadeandalucia.es/medioambiente/servtc5/ventana/documentos/GR_CONFIGURABLES/DATOS/Incendio_Huelva2020/JS/capas.js",
-      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/640c7c0/geoperfil/plugins.js"
+      "https://cdn.statically.io/gh/everisEquipoGIS/incendio/3b46e10/geoperfil/plugins.js"
     ],
     "css": []
     }
